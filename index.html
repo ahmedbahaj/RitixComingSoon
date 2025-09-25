@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif']
+                    },
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#64748b'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-8px)' }
+                        },
+                        'gradient-x': {
+                            '0%, 100%': { 'background-position': '0% 50%' },
+                            '50%': { 'background-position': '100% 50%' }
+                        }
+                    },
+                    animation: {
+                        float: 'float 3s ease-in-out infinite',
+                        'gradient-x': 'gradient-x 10s ease infinite'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-size: 200% 200%; /* needed for gradient movement */
+        }
+    </style>
+</head>
+<body class="font-cairo min-h-screen bg-gradient-to-r from-sky-200 via-indigo-200 to-purple-200 animate-gradient-x flex items-center justify-center p-4">
+    <div class="text-center max-w-md mx-auto">
+        <!-- Logo -->
+        <div class="mb-8">
+            <img src="/assets/RITIX.svg" 
+                 alt="Company Logo" 
+                 class="mx-auto h-20 w-auto animate-float">
+        </div>
+        
+        <!-- Coming Soon Text -->
+        <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">
+            Coming Soon
+        </h1>
+        
+        <!-- Email Text -->
+        <p class="text-lg text-secondary leading-relaxed text-pretty">
+            We're working on something amazing. <br> For updates, reach out to us at 
+            <span class="text-primary font-medium animate-pulse">info@ritixgroup.com</span>
+        </p>
+    </div>
+</body>
+</html>

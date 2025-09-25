@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239.39 80.52">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MyriadConceptRoman-SemiExt, 'Myriad Variable Concept';
+        font-size: 11.76px;
+        font-variation-settings: 'wght' 400, 'wdth' 110;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #3b3a3d;
+      }
+
+      .cls-3 {
+        fill: #00b1ac;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="M220.33,0v7.49s-23.86-.61-25.17,24.21c0,0-1.31,22.21,25.17,23.77v7.49s-31.44-.35-33-31.48c0,0-1.39-27.91,33-31.48Z"/>
+  <path class="cls-2" d="M162.16,0v7.66s16.37-1.13,23.51,15.5l4.09-9.06s-6.18-12.19-27.6-14.11Z"/>
+  <path class="cls-2" d="M185.76,39.97s-3.22,14.02-23.6,15.67v7.31s16.37,1.48,27.6-13.85l-4.01-9.14Z"/>
+  <rect class="cls-2" x="143.53" width="9.23" height="62.96"/>
+  <rect class="cls-2" x="68.73" width="9.23" height="62.96"/>
+  <polygon class="cls-2" points="134.21 0 134.21 7.57 115.36 7.57 115.36 62.96 106.13 62.96 106.13 7.57 87.23 7.57 87.23 0 134.21 0"/>
+  <path class="cls-3" d="M26.06,33.2s21.29,16.41,24.03,29.76h9.08s-3.33-15.06-19.33-25.97c0,0,11.95-4.77,14.17-15.61,0,0-11.1,12.87-27.95,11.82Z"/>
+  <text class="cls-1" transform="translate(162.16 77.49)"><tspan x="0" y="0">Consulting</tspan></text>
+  <path class="cls-2" d="M53.56,17.98c-5.55,7.31-13.52,9.73-13.52,9.73,6.99-7.51,3.14-15.67-2.68-19-5.81-3.34-14.57-.07-14.57-.07v54.32h-8.88V1.2s19.93-1.76,23.51-.65c17.63,4.44,16.13,17.44,16.13,17.44Z"/>
+</svg>
