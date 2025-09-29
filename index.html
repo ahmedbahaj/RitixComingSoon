@@ -41,25 +41,34 @@
         }
     </style>
 </head>
-<body class="font-cairo min-h-screen bg-gradient-to-r from-sky-200 via-indigo-200 to-purple-200 animate-gradient-x flex items-center justify-center p-4">
-    <div class="text-center max-w-md mx-auto">
+<body class="relative font-cairo min-h-screen bg-gradient-to-r from-sky-200 via-indigo-200 to-purple-200 animate-gradient-x flex flex-col justify-between">
+    
+    <!-- Background blob -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute -top-20 -left-20 w-72 h-72 bg-primary opacity-20 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-purple-400 opacity-20 rounded-full blur-3xl animate-pulse"></div>
+    </div>
+
+    <!-- Main content -->
+    <div class="relative flex flex-col items-center justify-center flex-grow text-center p-4 max-w-md mx-auto">
         <!-- Logo -->
-        <div class="mb-8">
+        <div class="mb-0">
             <img src="./assets/RITIX.svg" 
                  alt="Company Logo" 
-                 class="mx-auto h-20 w-auto animate-float">
+                 class="mx-auto h-32 md:h-48 w-auto animate-float">
         </div>
         
         <!-- Coming Soon Text -->
-        <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 text-balance">
+        <h1 class="text-4xl md:text-4xl font-bold text-slate-900 mb-4">
             Coming Soon
         </h1>
         
         <!-- Email Text -->
-        <p class="text-lg text-secondary leading-relaxed text-pretty">
+        <p class="text-lg text-secondary leading-relaxed">
             We're working on something amazing. <br> For updates, reach out to us at 
             <span class="text-primary font-medium animate-pulse">info@ritixgroup.com</span>
         </p>
     </div>
+
 </body>
 </html>
